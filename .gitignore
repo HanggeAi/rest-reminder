@@ -1,0 +1,27 @@
+# 忽略所有 build 文件夹（包括子目录中的 build）
+build/
+cmake-build-debug/
+out/
+
+# 忽略 Python 缓存文件夹
+__pycache__/
+
+# 忽略 IDE 配置文件夹
+.idea/
+.vs/
+.vscode/
+
+# 忽略 logs 文件夹（所有层级）
+logs/
+
+# 忽略 figure 文件夹（所有层级）
+figures/
+
+# 忽略目标文件、动态库、可执行文件
+*.o
+*.so
+*.pyd
+*.dll
+*.exe
+
+rest_reminder.md
